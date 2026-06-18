@@ -1,0 +1,64 @@
+2026-06-18 00:58:17 - Starting DoConnectAiApplication using Java 21.0.3 with PID 21976 (C:\Users\MA20696868\Documents\project\DoConnectAI\target\classes started by MA20696868 in C:\Users\MA20696868\Documents\project\DoConnectAI)
+2026-06-18 00:58:17 - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 00:58:17 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-18 00:58:17 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-18 00:58:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-18 00:58:19 - Finished Spring Data repository scanning in 196 ms. Found 6 JPA repository interfaces.
+2026-06-18 00:58:21 - Tomcat initialized with port 8080 (http)
+2026-06-18 00:58:21 - Starting service [Tomcat]
+2026-06-18 00:58:21 - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-18 00:58:21 - Root WebApplicationContext: initialization completed in 4265 ms
+2026-06-18 00:58:22 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-18 00:58:22 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-18 00:58:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-18 00:58:24 - HikariPool-1 - Starting...
+2026-06-18 00:58:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9ffd35f
+2026-06-18 00:58:25 - HikariPool-1 - Start completed.
+2026-06-18 00:58:25 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/doconnectai_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.9
+	Default catalog/schema: doconnectai_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-18 00:58:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-18 00:58:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-18 00:58:28 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-18 00:58:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-18 00:58:29 - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-18 00:58:30 - Tomcat started on port 8080 (http) with context path '/'
+2026-06-18 00:58:30 - Started DoConnectAiApplication in 14.299 seconds (process running for 16.504)
+2026-06-18 01:00:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 01:00:32 - Initializing Servlet 'dispatcherServlet'
+2026-06-18 01:00:32 - Completed initialization in 2 ms
+2026-06-18 01:02:00 - Retrieving  all questions
+2026-06-18 01:02:00 - Retrieving  all questions
+2026-06-18 01:04:26 - Retrieving notifications for userId
+2026-06-18 01:04:26 - Retrieving notifications for userId
+2026-06-18 01:04:51 - Admin stats API called
+2026-06-18 01:04:51 - Admin stats API called
+2026-06-18 01:05:00 - Retrieving user with role
+2026-06-18 01:05:00 - Retrieving user with role
+2026-06-18 01:05:05 - Retrieving user with role
+2026-06-18 01:05:05 - Retrieving user with role
+2026-06-18 01:05:08 - Retrieving  all questions
+2026-06-18 01:05:08 - Retrieving  all questions
+2026-06-18 01:05:13 - Retrieving notifications for userId
+2026-06-18 01:05:13 - Retrieving notifications for userId
+2026-06-18 01:05:19 - Retrieving  all questions
+2026-06-18 01:05:19 - Retrieving  all questions
+2026-06-18 01:05:21 - Admin stats API called
+2026-06-18 01:05:21 - Admin stats API called
+2026-06-18 01:05:26 - Admin stats API called
+2026-06-18 01:05:26 - Admin stats API called
+2026-06-18 01:08:08 - Application shutdown requested.
+2026-06-18 01:08:08 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-18 01:08:08 - Graceful shutdown complete
+2026-06-18 01:08:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-18 01:08:08 - HikariPool-1 - Shutdown initiated...
+2026-06-18 01:08:08 - HikariPool-1 - Shutdown completed.
