@@ -1,0 +1,14 @@
+.nav-hover {
+    transition: 0.3s;
+}
+ 
+.nav-hover:hover {
+    color: #00d4ff !important;
+    transform: scale(1.05);
+}
+ 
+.navbar-brand {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+ 
